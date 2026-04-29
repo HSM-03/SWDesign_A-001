@@ -24,7 +24,7 @@ classDiagram
         -balance: long
         +deposit(id: String, amount: long) long
         +withdraw(id: String, amount: long) long
-        +transfer(id: String, targetAccountNumber: String, amount: long) boolean
+        +transfer(id: String, targetAccountNumber: String, amount: long) long
         +computeBalance() long
     }
 
